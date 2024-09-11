@@ -1,0 +1,54 @@
+
+#table_users {
+    margin: 20px auto;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+#table_users table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #333; 
+    color: #f1f1f1; 
+}
+
+#table_users th, #table_users td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #444; 
+}
+
+#table_headers {
+    background-color: #000;
+}
+
+#table_users th {
+    background-color: #000; 
+    color: white;
+    font-weight: bold;
+}
+
+#table_users tr:hover {
+    background-color: #444; 
+}
+
+
+button {
+    background-color: #000; 
+    color: white;
+    padding: 8px 16px; 
+    border: none;
+    border-radius: 20px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #222; 
+    transform: scale(1.05); 
+}
+
+button:active {
+    background-color: #111;
+    transform: scale(0.98); 
+}
